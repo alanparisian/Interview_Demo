@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54014A381D97E15000EDB82C /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54014A371D97E15000EDB82C /* ListDetailViewController.swift */; };
 		5420E0D91D75D42700F16704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5420E0D81D75D42700F16704 /* AppDelegate.swift */; };
-		5420E0DB1D75D42700F16704 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5420E0DA1D75D42700F16704 /* ViewController.swift */; };
+		5420E0DB1D75D42700F16704 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5420E0DA1D75D42700F16704 /* ChecklistViewController.swift */; };
 		5420E0DE1D75D42700F16704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5420E0DC1D75D42700F16704 /* Main.storyboard */; };
 		5420E0E01D75D42700F16704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5420E0DF1D75D42700F16704 /* Assets.xcassets */; };
 		5420E0E31D75D42700F16704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5420E0E11D75D42700F16704 /* LaunchScreen.storyboard */; };
+		547BB3171D7B175C00AF8AB4 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BB3161D7B175C00AF8AB4 /* ChecklistItem.swift */; };
+		547EDBF91D7BEC2800D4F48B /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547EDBF81D7BEC2800D4F48B /* ItemDetailViewController.swift */; };
+		54839F271D956F4700753534 /* AllListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54839F261D956F4700753534 /* AllListsViewController.swift */; };
+		54839F2A1D9578D100753534 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54839F291D9578D100753534 /* Checklist.swift */; };
+		54F192751D9AD25200BFD1DC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F192741D9AD25200BFD1DC /* Default-568h@2x.png */; };
+		54F462251D9BDB2F00258896 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54F462241D9BDB2F00258896 /* Info.plist */; };
+		54F88C581D9FCAA300FD73DE /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F88C571D9FCAA300FD73DE /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54014A371D97E15000EDB82C /* ListDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
 		5420E0D51D75D42700F16704 /* Checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5420E0D81D75D42700F16704 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5420E0DA1D75D42700F16704 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5420E0DA1D75D42700F16704 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ChecklistViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5420E0DD1D75D42700F16704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5420E0DF1D75D42700F16704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5420E0E21D75D42700F16704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5420E0E41D75D42700F16704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547BB3161D7B175C00AF8AB4 /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		547EDBF81D7BEC2800D4F48B /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ItemDetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		54839F261D956F4700753534 /* AllListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllListsViewController.swift; sourceTree = "<group>"; };
+		54839F291D9578D100753534 /* Checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
+		54F192741D9AD25200BFD1DC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		54F462241D9BDB2F00258896 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../Info.plist; sourceTree = "<group>"; };
+		54F88C571D9FCAA300FD73DE /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataModel.swift; path = ../DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +53,7 @@
 		5420E0CC1D75D42700F16704 = {
 			isa = PBXGroup;
 			children = (
+				54F192741D9AD25200BFD1DC /* Default-568h@2x.png */,
 				5420E0D71D75D42700F16704 /* Checklists */,
 				5420E0D61D75D42700F16704 /* Products */,
 			);
@@ -54,12 +70,18 @@
 		5420E0D71D75D42700F16704 /* Checklists */ = {
 			isa = PBXGroup;
 			children = (
-				5420E0D81D75D42700F16704 /* AppDelegate.swift */,
-				5420E0DA1D75D42700F16704 /* ViewController.swift */,
 				5420E0DC1D75D42700F16704 /* Main.storyboard */,
-				5420E0DF1D75D42700F16704 /* Assets.xcassets */,
+				54F462241D9BDB2F00258896 /* Info.plist */,
 				5420E0E11D75D42700F16704 /* LaunchScreen.storyboard */,
-				5420E0E41D75D42700F16704 /* Info.plist */,
+				5420E0D81D75D42700F16704 /* AppDelegate.swift */,
+				54F88C571D9FCAA300FD73DE /* DataModel.swift */,
+				54839F291D9578D100753534 /* Checklist.swift */,
+				547BB3161D7B175C00AF8AB4 /* ChecklistItem.swift */,
+				54839F261D956F4700753534 /* AllListsViewController.swift */,
+				5420E0DA1D75D42700F16704 /* ChecklistViewController.swift */,
+				547EDBF81D7BEC2800D4F48B /* ItemDetailViewController.swift */,
+				54014A371D97E15000EDB82C /* ListDetailViewController.swift */,
+				5420E0DF1D75D42700F16704 /* Assets.xcassets */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
@@ -91,12 +113,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = PenguinTech;
 				TargetAttributes = {
 					5420E0D41D75D42700F16704 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 7VP6JZ4AR9;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -124,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5420E0E31D75D42700F16704 /* LaunchScreen.storyboard in Resources */,
+				54F462251D9BDB2F00258896 /* Info.plist in Resources */,
 				5420E0E01D75D42700F16704 /* Assets.xcassets in Resources */,
+				54F192751D9AD25200BFD1DC /* Default-568h@2x.png in Resources */,
 				5420E0DE1D75D42700F16704 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5420E0DB1D75D42700F16704 /* ViewController.swift in Sources */,
+				5420E0DB1D75D42700F16704 /* ChecklistViewController.swift in Sources */,
+				547EDBF91D7BEC2800D4F48B /* ItemDetailViewController.swift in Sources */,
+				54839F2A1D9578D100753534 /* Checklist.swift in Sources */,
+				54014A381D97E15000EDB82C /* ListDetailViewController.swift in Sources */,
+				547BB3171D7B175C00AF8AB4 /* ChecklistItem.swift in Sources */,
+				54F88C581D9FCAA300FD73DE /* DataModel.swift in Sources */,
+				54839F271D956F4700753534 /* AllListsViewController.swift in Sources */,
 				5420E0D91D75D42700F16704 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,8 +208,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -222,8 +255,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -242,6 +277,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -250,10 +286,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Checklists/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../../Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.penguintech.Checklists;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -261,10 +298,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Checklists/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../../Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.penguintech.Checklists;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -287,6 +325,7 @@
 				5420E0E91D75D42700F16704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
