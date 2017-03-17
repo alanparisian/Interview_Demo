@@ -1,10 +1,7 @@
-//
 //  DataModel.swift
 //  Checklists
-//
 //  Created by Lam Tat Cheong on 01/10/2016.
 //  Copyright © 2016 PenguinTech. All rights reserved.
-//
 
 import Foundation
 
